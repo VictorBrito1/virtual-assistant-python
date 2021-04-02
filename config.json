@@ -1,0 +1,45 @@
+{
+    "name": "julia",
+    "questions": [
+        {
+            "number": 1,
+            "main": "Quais são os planetas do sistema solar?",
+            "answer": "Os oito planetas do Sistema Solar, em ordem de proximidade ao sol, são: Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno.",
+            "prefix": [
+                "quais",
+                "quais são",
+                "diga quais são"
+            ],
+            "main_parts": [
+                "planetas sistema solar"
+            ]
+        },
+        {
+            "number": 2,
+            "main": "Qual é o planeta mais distante do sol?",
+            "answer": "O Planeta Netuno é o mais distante do sol.",
+            "prefix": [
+                "qual",
+                "qual é",
+                "qual nome"
+            ],
+            "main_parts": [
+                "planeta mais distante sol",
+                "planeta mais longe sol"
+            ]
+        },
+        {
+            "number": 3,
+            "main":"Qual é o maior planeta do Sistema Solar?",
+            "answer": "Júpiter é o maior planeta do Sistema Solar possuindo uma massa 318 vezes maior que a da Terra.",
+            "prefix": [
+                "qual",
+                "qual é",
+                "qual nome"
+            ],
+            "main_parts": [
+                "maior planeta sistema solar"
+            ]
+        }
+    ]
+}
