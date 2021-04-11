@@ -101,7 +101,7 @@ def recognize_prefix(question_parts):
                 if total_valid_parts_partial == total_expected:
                     valid_prefix = True
                     total_valid_parts = total_valid_parts_partial
-                    valid_questions_numbers.append(expected_question['number']) #testar retornar pergunta de fato
+                    valid_questions_numbers.append(expected_question['number'])
                 
     return valid_prefix, valid_questions_numbers, total_valid_parts
 
@@ -111,7 +111,7 @@ def recognize_main_part(questions_numbers, question_main_parts):
     answer = None
     
     for expected_question in questions:
-        if expected_question['number'] in questions_numbers: #testar
+        if expected_question['number'] in questions_numbers:
             for main_part in expected_question['main_parts']:
                 expected_main_part = word_tokenize(main_part, CORPUS_LANGUAGE)
                 total_expected = len(expected_main_part)
